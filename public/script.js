@@ -41,7 +41,7 @@ function savePainting() {
     const _id = document.getElementById('_id').value;
     const updatedPainting = {
         Title: document.getElementById('Title').value,
-        Artist: document.getElementById('Artist').value,
+        LastName: document.getElementById('Artist').value,
         Description: document.getElementById('Description').value
     };
 
